@@ -37,7 +37,7 @@ For a weather-prediction use case, missing an actual rain day (a false negative 
 
 ### Feature importance
 
-![Feature Importance](feature_importance.png)
+![Feature Importance](feature_importance.png.png)
 
 `Humidity3pm` is the single strongest predictor, consistent with meteorological understanding — afternoon humidity is a well-known precursor to rain. The next tier (`Pressure3pm`, `Sunshine`, `Humidity9am`, `WindGustSpeed`, `Pressure9am`) are also physically sensible drivers of rain formation, giving confidence the model learned real signal rather than overfitting to noise.
 
